@@ -1,0 +1,77 @@
+body {
+    background-image: url(background.jpg);
+    background-size: 100%;
+    
+}
+
+header > h1{
+    text-align: center;
+    color: greenyellow;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+header > img:first-child{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+body > div:first-child {
+    border-radius: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    padding: 5%;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+nav {
+    background-color: greenyellow;
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    padding: 2px;
+}
+
+article {
+    color: white;
+}
+
+h2{
+display: inline-block;
+margin-bottom: 5px;
+}
+
+span {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.hr1 {
+    width: 35%;
+    border: 15px solid orange;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.hr2 {
+    width: 55%;
+    border: 15px solid greenyellow;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.hr3 {
+    width: 20%;
+    border: 15px solid red;
+    border-radius: 5px;
+    margin: 0px;
+}
